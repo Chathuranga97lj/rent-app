@@ -2,7 +2,6 @@ import {  View, Text, TextInput } from 'react-native';
 import { FontAwesome } from '@expo/vector-icons';
 import { Entypo } from '@expo/vector-icons';
 import { AntDesign } from '@expo/vector-icons';
-import { colors } from '../../models/colors';
 import styles from './styles';
 
 const HeaderForMobile = () => {

@@ -2,10 +2,12 @@ import { StyleSheet, Platform, SafeAreaView, View, Text, TextInput } from 'react
 import PostItems from './components/posts';
 import HeaderForMobile from './components/headerForMobile';
 import { colors } from './models/colors';
+import { StatusBar } from 'expo-status-bar';
 
 export default function App() {
   return (
     <SafeAreaView style={styles.safeArea}>
+      <StatusBar style='auto' backgroundColor='#00ab41'/>
       <HeaderForMobile />
       <PostItems />
     </SafeAreaView>
