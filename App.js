@@ -1,6 +1,8 @@
 import { StyleSheet, Platform, SafeAreaView, View, Text, TextInput } from 'react-native';
 import PostItems from './components/posts';
 import { FontAwesome } from '@expo/vector-icons';
+import { Entypo } from '@expo/vector-icons';
+import { AntDesign } from '@expo/vector-icons';
 
 export default function App() {
   return (
@@ -12,11 +14,13 @@ export default function App() {
         </View>
        <View style={{flexDirection:'row', justifyContent:'space-between', width:'100%', paddingVertical:10}}>
         <View style={{flexDirection:'row'}}>
-            <Text>Location :</Text>
+            <Entypo name="location-pin" size={24} color="black" />
+            <Text style={{marginLeft: 5}}>Location :</Text>
             <Text style={{fontWeight:'bold', marginLeft:5}}>Kurunegala</Text>
         </View>
         <View style={{flexDirection:'row'}}>
-            <Text>Category :</Text>
+            <AntDesign name="bars" size={24} color="black" />
+            <Text style={{marginLeft: 5}}>Category :</Text>
             <Text style={{fontWeight:'bold', marginLeft:5}}>Vehical</Text>
         </View>        
        </View>
@@ -30,6 +34,7 @@ export default function App() {
 const styles = StyleSheet.create({
   safeArea:{
     flex: 1,
-    paddingTop: Platform.OS === 'android' ? 60 : 0
+    paddingTop: Platform.OS === 'android' ? 60 : 0,
+    backgroundColor:'lightgreen'
   },
 });
