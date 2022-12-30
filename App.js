@@ -1,6 +1,5 @@
-import { StyleSheet, Platform, SafeAreaView, View, Text, TextInput } from 'react-native';
-import PostItems from './components/posts';
-import HeaderForMobile from './components/headerForMobile';
+import { StyleSheet, Platform, SafeAreaView } from 'react-native';
+import Home from './screens/home';
 import { colors } from './models/colors';
 import { StatusBar } from 'expo-status-bar';
 
@@ -8,8 +7,7 @@ export default function App() {
   return (
     <SafeAreaView style={styles.safeArea}>
       <StatusBar style='auto' backgroundColor='#00ab41'/>
-      <HeaderForMobile />
-      <PostItems />
+      <Home />
     </SafeAreaView>
   );
 }
