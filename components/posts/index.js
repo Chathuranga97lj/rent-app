@@ -1,6 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
 import { Text, View, Image } from 'react-native';
 import styles from './styles';
+import { colors } from '../../models/colors';
 
 const PostItems = () => {
     return(

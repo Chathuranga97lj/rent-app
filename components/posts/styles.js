@@ -1,4 +1,5 @@
 import { StyleSheet } from "react-native";
+import { colors } from '../../models/colors';
 
 const styles = StyleSheet.create({
     container: {
@@ -14,11 +15,11 @@ const styles = StyleSheet.create({
     postWrap:{
       display: "flex", 
       flexDirection: "row", 
-      backgroundColor: "white", 
+      backgroundColor: colors.white, 
       marginVertical:10, 
       marginHorizontal:10, 
       borderRadius:10,
-      shadowColor: "#000",
+      shadowColor: colors.black,
       shadowOffset: {width:0, height:1},
       shadowOpacity: 0.8,
       shadowRadius: 2,
@@ -38,12 +39,12 @@ const styles = StyleSheet.create({
     },
     postValue: {
       color: 'orange', 
-      backgroundColor:'#293241', 
+      backgroundColor:colors.secondary, 
       alignSelf:'flex-end', 
       padding:5, 
       borderRadius:10
     },
-    postPlace: {color: '#293241'},
+    postPlace: {color: colors.secondary},
     postTitle: {fontWeight:'bold'}
   });
   
