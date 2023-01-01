@@ -21,7 +21,7 @@ export default function App() {
 const styles = StyleSheet.create({
   safeArea:{
     flex: 1,
-    paddingTop: Platform.OS === 'android' ? 20 : 0,
+    paddingTop: Platform.OS === 'android' ? 60 : 0,
     // backgroundColor:colors.backgroundColor
   },
 });
