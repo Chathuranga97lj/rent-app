@@ -10,6 +10,11 @@
       "StackName": "amplify-rent-dev-60819",
       "StackId": "arn:aws:cloudformation:ap-northeast-1:467567240019:stack/amplify-rent-dev-60819/986013a0-896c-11ed-b101-0aaa2c6746d9",
       "AmplifyAppId": "d61d0c5duf5qa"
+    },
+    "categories": {
+      "auth": {
+        "rent6a9d72ad": {}
+      }
     }
   }
 }
