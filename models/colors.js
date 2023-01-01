@@ -4,5 +4,6 @@ export const colors = {
     secondary: '#293241',
     white:'white',
     black:'#000',
+    orange: 'orange'
 
 }
