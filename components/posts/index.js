@@ -22,7 +22,7 @@ const PostItems = () => {
             <Text style={styles.postValue}>Rs:5000 Day</Text>
           </View> 
         </Pressable>
-        <View style={styles.postWrap}>
+        {/* <View style={styles.postWrap}>
           <Image 
             source={{uri: "https://media.istockphoto.com/id/171259869/photo/villa-sri-lanka.jpg?s=612x612&w=0&k=20&c=KxBqowg7IOR5J0G81fkouPh_xAc5S7cN7TAQmsVjAio="}}
             style={styles.postImage}
@@ -60,7 +60,7 @@ const PostItems = () => {
             </View>
             <Text style={styles.postValue}>Rs:5000 Day</Text>
           </View> 
-        </View>
+        </View> */}
       </View>
     )
 }

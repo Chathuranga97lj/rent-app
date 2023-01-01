@@ -4,6 +4,10 @@ import { colors } from './models/colors';
 import { StatusBar } from 'expo-status-bar';
 import Route from './navigation/router';
 
+import { Amplify, Auth } from 'aws-amplify';
+import awsconfig from './src/aws-exports';
+Amplify.configure(awsconfig);
+
 export default function App() {
   return (
     <SafeAreaView style={styles.safeArea}>
